@@ -27,7 +27,7 @@ const config = {
   },
 };
 
-// Connect to Azure SQL Database
+// Connect to Azure SQL Databaseeee
 async function connectToDatabase() {
   try {
     await sql.connect(config);
